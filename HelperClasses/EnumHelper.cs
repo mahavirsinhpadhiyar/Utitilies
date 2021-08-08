@@ -22,6 +22,8 @@ namespace ProjectName.Shared.Utilities
             }
 
             return ret;
+            //How to use:
+            //List<SelectListItem> listOfEnum = EnumHelper.ConvertEnumToDropDownSource<EnumName>();
         }
     }
 }
